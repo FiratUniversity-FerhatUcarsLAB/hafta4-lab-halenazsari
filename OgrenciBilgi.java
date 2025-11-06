@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class OgrenciBilgi {
     public static void main(String[] args) {
-         Scanner input = new scanner(System.in);
+         Scanner input = new Scanner(System.in);
         
         
         String ad;
@@ -32,7 +32,7 @@ public class OgrenciBilgi {
         
         
         // Soyad
-        System.out.print("Soyadinizi girin: ")
+        System.out.print("Soyadinizi girin: ");
         soyad = input.nextLine();
         
         // Ogrenci No
@@ -42,12 +42,12 @@ public class OgrenciBilgi {
         
         // Yas
         System.out.print("Yaşınızı girin: ");
-        yas = input.nextInt
+        yas = input.nextInt();
         
         
         // GPA
         System.out.print("GPA (Not Ortalaması) girin: ")
-        gpa = intput.nextDouble
+        gpa = intput.nextDouble();
         
         
         // Bilgileri ekrana yazdirin
@@ -55,12 +55,19 @@ public class OgrenciBilgi {
         
         // COZUMUNUZU BURAYA YAZIN
         System.out.println("Ad: " + ad);
-        System.out.println("Soyad:" + ad);
-        System.out.println("Ogrenci No: + ogrenciNo);
+        System.out.println("Soyad:" + soyad);
+        System.out.println("Ogrenci No:" + ogrenciNo);
         System.out.println("Yas: " + yas);
         System.out.println("GPA: " + gpa);
-        
-        
+
+
+
+        === OGRENCI BILGILERI ===
+Ad: Ahmet
+Soyad: Yilmaz
+Ogrenci No: 12345
+Yas: 20
+GPA: 3.45        
         
         
         
