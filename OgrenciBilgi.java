@@ -1,7 +1,7 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: [HALENAZ SARI]
+ * Ogrenci No: [240541008]
+ * Tarih: [06.11.2025]
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class OgrenciBilgi {
     public static void main(String[] args) {
-        // Scanner objesi olusturun
+         Scanner scanner = new scanner(System.in);
         
         
         // Degisken tanimlamalari
