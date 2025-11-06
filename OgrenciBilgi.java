@@ -13,14 +13,14 @@ import java.util.Scanner;
 
 public class OgrenciBilgi {
     public static void main(String[] args) {
-         Scanner scanner = new scanner(System.in);
+         Scanner input = new scanner(System.in);
         
         
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
-        
+        String ad;
+        String soyad;
+        int ogrenciNo;
+        int yas;
+        double gpa;
         
         // Kullanicidan bilgileri alin
         System.out.println("=== OGRENCI BILGI SISTEMI ===");
