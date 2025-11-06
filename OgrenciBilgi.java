@@ -27,25 +27,38 @@ public class OgrenciBilgi {
         System.out.println();
         
         // Ad
+        System.out.print("Adinizi girin: ");
+        ad = input.nextLine();
         
         
         // Soyad
-        
+        System.out.print("Soyadinizi girin: ")
+        soyad = input.nextLine();
         
         // Ogrenci No
+        System.out.print("Ogrenci numaraninizi girin: ");
+        ogrenciNo = input.nextInt();
         
         
         // Yas
+        System.out.print("Yaşınızı girin: ");
+        yas = input.nextInt
         
         
         // GPA
+        System.out.print("GPA (Not Ortalaması) girin: ")
+        gpa = intput.nextDouble
         
         
         // Bilgileri ekrana yazdirin
         System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
         
         // COZUMUNUZU BURAYA YAZIN
-        
+        System.out.println("Ad: " + ad);
+        System.out.println("Soyad:" + ad);
+        System.out.println("Ogrenci No: + ogrenciNo);
+        System.out.println("Yas: " + yas);
+        System.out.println("GPA: " + gpa);
         
         
         
@@ -55,6 +68,7 @@ public class OgrenciBilgi {
         
         
         // Scanner'i kapatin (önemli pratik)
+        input.close();
         
     }
 }
