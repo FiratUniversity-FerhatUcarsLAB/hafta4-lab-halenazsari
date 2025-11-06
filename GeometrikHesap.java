@@ -12,7 +12,7 @@ public class GeometrikHesaplayici {
     private static final double PI = 3.14159;
     
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
       
         System.out.println("=== GEOMETRIK HESAPLAYICI ===");
