@@ -97,3 +97,8 @@ public class MaasHesaplama {
         scanner.close();
     }
 }
+
+Brüt Maaş: 15.000 TL
+Mesai: 10 saat
+Net Maaş: 11.523,91 TL
+Kesinti: %29,8
