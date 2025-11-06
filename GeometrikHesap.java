@@ -48,3 +48,29 @@ public class GeometrikHesaplayici {
         scanner.close();
     }
 }
+
+
+
+=== GEOMETRIK HESAPLAYICI ===
+Dairenin yaricapini girin (cm): 5.0
+
+SONUCLAR:
+----------
+Daire Alani        : 78.54 cm²
+Daire Cevresi      : 31.42 cm
+Daire Capi         : 10.00 cm
+Kure Hacmi         : 523.60 cm³
+Kure Yuzey Alani   : 314.16 cm²
+
+
+
+    === GEOMETRIK HESAPLAYICI ===
+Dairenin yaricapini girin (cm): 7.5
+
+SONUCLAR:
+----------
+Daire Alani        : 176.71 cm²
+Daire Cevresi      : 47.12 cm
+Daire Capi         : 15.00 cm
+Kure Hacmi         : 1767.15 cm³
+Kure Yuzey Alani   : 706.86 cm²
